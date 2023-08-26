@@ -1,3 +1,5 @@
+В файле ModelQA.py содержиться интерфейся для создания чат бота
+В файле Trainning.py код для дообучения модели и преобразования входных данных (Обучался в Google Colab на GPU)
 Файл Annoy_index необходимый для работы дообученной модели, необходимо скачать, так как он превышает 100мб (git lfs не помог)
 (https://drive.google.com/file/d/1gufxOUqmlSdKEqWSMUzflGKvj8OTdo2e/view?usp=sharing)
 ## Описание проекта
@@ -13,4 +15,4 @@
 Для поиска наиболее подходящего ответа на заданный вопрос используется индекс Annoy, который строится на основе функции сравнения angular distance. Эта функция сравнения позволяет измерять угол между векторами и определять, насколько они близки друг к другу по смыслу.
 
 Обучение проводилось в Google Colab https://colab.research.google.com/drive/1K3xRY9uQWrjuLdSUF-B6nONKMar_m5YE?authuser=0#scrollTo=VHAXGAbxYqEr
-
+Модель на HuggingFace в открытом доступе (https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
