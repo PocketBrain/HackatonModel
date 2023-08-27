@@ -1,4 +1,4 @@
-В файле ModelQA.py содержиться интерфейся для создания чат бота<br>
+В файле ModelQA.py содержиться интерфейся для создания и тестирования чат бота<br>
 <br>В файле Trainning.py код для дообучения модели и преобразования входных данных (Обучался в Google Colab на GPU)<br>
 <br>Файл Annoy_index необходимый для работы дообученной модели, необходимо скачать, так как он превышает 100мб (git lfs не помог)
 (https://drive.google.com/file/d/1gufxOUqmlSdKEqWSMUzflGKvj8OTdo2e/view?usp=sharing)
